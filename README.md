@@ -21,7 +21,7 @@ Faite en php, elle fournit:
   - User agent
 
 ### Exemple:
-![example.txt](https://media.discordapp.net/attachments/633782210238873612/882046827761901618/unknown.png?width=1360&height=630)
+![example.txt](https://cdn.discordapp.com/attachments/633782210238873612/894718281028624414/unknown.png)
 
 
 ----
