@@ -1,0 +1,9 @@
+////=======LOGS=======//////////
+Une personne ayant pour IP '127.0.0.1' est revenu sur le site le 2021-10-04 à 22:18:02. Il as donc été redirigé vers le site suivant: A la place de ce message, mettez l'url d'un site. Une fois l'action faite, toutes les personnes qui viendront sur ce site avec une ip figurant dans le fichier blacklist.txt se verrons redirigé par l'url que vous avez spécifiez dans ce fichier.
+Une personne ayant pour IP '127.0.0.1' est revenu sur le site le 2021-10-04 à 22:18:27. Il as donc été redirigé vers le site suivant: A la place de ce message, mettez l'url d'un site. Une fois l'action faite, toutes les personnes qui viendront sur ce site avec une ip figurant dans le fichier blacklist.txt se verrons redirigé par l'url que vous avez spécifiez dans ce fichier.
+Une personne ayant pour IP '127.0.0.1' est venu sur le site le 2021-10-04 à 22:19:21
+Une personne ayant pour IP '127.0.0.1' est revenu sur le site le 2021-10-04 à 22:25:20. Il as donc été redirigé vers le site suivant: A la place de ce message, mettez l'url d'un site. Une fois l'action faite, toutes les personnes qui viendront sur ce site avec une ip figurant dans le fichier blacklist.txt se verrons redirigé par l'url que vous avez spécifiez dans ce fichier.
+Une personne ayant pour IP '127.0.0.1' est revenu sur le site le 2021-10-04 à 22:25:55. Il as donc été redirigé vers le site suivant: A la place de ce message, mettez l'url d'un site. Une fois l'action faite, toutes les personnes qui viendront sur ce site avec une ip figurant dans le fichier blacklist.txt se verrons redirigé par l'url que vous avez spécifiez dans ce fichier.
+Une personne ayant pour IP '127.0.0.1' est venu sur le site le 2021-10-04 à 22:26:14
+Une personne ayant pour IP '127.0.0.1' est venu sur le site le 2021-10-04 à 22:27:07
+Une personne ayant pour IP '127.0.0.1' est venu sur le site le 2021-10-04 à 22:27:34
