@@ -1,0 +1,11 @@
+#check{
+    width: 8%;
+    height: auto;
+    margin-left: 46%;
+    margin-top: 20%;
+}
+#succes{
+    font-family: HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: rgb(87, 87, 87);
+    text-align: center;
+}

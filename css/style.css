@@ -1,0 +1,123 @@
+body{
+    background-color: #f0f2f5;
+}
+#left{
+    width: 50%;
+}
+#right{
+    width: 49%;
+}
+#container{
+    width: 980px;
+    height: 496px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+img{
+    height: 106px;
+    margin: -28px;
+    margin-top: -80px;
+}
+h1{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin-bottom: 200px;
+}
+div div{
+    display: inline-block;
+}
+form{
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+    margin-left: 90px;
+    
+}
+input[type="text"],input[type="password"]{
+    border-radius: 6px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 10%;
+    padding: 7px;
+    border: 1px solid #ccd0d5;
+    font-size: 17px;
+}
+input[type="submit"]{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+}
+input[type="submit"]:hover{
+    background-color: #186bd6;
+    transition: 0.5s;
+}
+#mdp-oublié{
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Helvetica, Arial, sans-serif;
+}
+#mdp-oublié:hover{
+    text-decoration: underline;
+}
+#separation{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+#register{
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 15 16px;
+    background-color: #42b72a;
+    color: white;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+#register:hover{
+    background-color: rgb(53, 146, 34);
+    transition: 0.5s;
+}
+p{
+    text-align: center;
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    margin-left: 20%;
+
+}
+#entreprise{
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+#entreprise:hover{
+    text-decoration: underline;
+}

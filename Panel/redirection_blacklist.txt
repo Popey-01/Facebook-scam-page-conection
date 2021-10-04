@@ -1,0 +1,1 @@
+A la place de ce message, mettez l'url d'un site. Une fois l'action faite, toutes les personnes qui viendront sur ce site avec une ip figurant dans le fichier blacklist.txt se verrons redirigé par l'url que vous avez spécifiez dans ce fichier.
